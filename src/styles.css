@@ -1,11 +1,12 @@
 :root {
-    --primary-color: rgb(241, 243, 248);
+    --primary-color: rgb(50, 56, 61);
     --secondary-color: rgb(214, 224, 240);
+    --tertiary-color:rgb(33, 37, 41);
     --primary-font-family: "Poppins", sans-serif;
 }
 
 body {
-    background-color: #393B44;
+    background-color: var(--primary-color);
     color: var(--secondary-color);
     font-family: var(--primary-font-family);
 }
@@ -23,15 +24,66 @@ h2 {
     letter-spacing: 2px;
 }
 
-.section1 {
-    text-align: center;
-    padding: 160px 20px;
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
+.section1 {
+    text-align: center;
+    padding: 140px 20px;
+    background-color: var(--tertiary-color);
+}
+
+.toProjectButton {
+    background: rgb(156, 183, 255, 0.7);
+}
+.toProjectButton:hover {
+    background: rgb(156, 183, 255);
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
 #contact-button {
     background: rgb(156, 183, 255, 0.7);
 }
 
 #contact-button:hover {
-        background: rgb(156, 183, 255);
+    background: rgb(156, 183, 255);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .section1 {
+    padding: 80px 20px;
+  }
+
+.projectDesciption {
+    padding: 0;
+    text-align: center;
+  }
 }
