@@ -1,0 +1,9 @@
+:root {
+    --primary-color: rgb(241, 243, 248);
+    --secondary-color: rgb(214, 224, 240);
+}
+
+body {
+    background-color: #393B44;
+    color: var(--secondary-color);
+}
