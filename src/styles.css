@@ -1,9 +1,37 @@
 :root {
     --primary-color: rgb(241, 243, 248);
     --secondary-color: rgb(214, 224, 240);
+    --primary-font-family: "Poppins", sans-serif;
 }
 
 body {
     background-color: #393B44;
     color: var(--secondary-color);
+    font-family: var(--primary-font-family);
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 3;
+    letter-spacing: 2px;
+}
+
+.section1 {
+    text-align: center;
+    padding: 160px 20px;
+}
+
+#contact-button {
+    background: rgb(156, 183, 255, 0.7);
+}
+
+#contact-button:hover {
+        background: rgb(156, 183, 255);
 }
