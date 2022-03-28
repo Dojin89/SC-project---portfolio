@@ -28,6 +28,20 @@ h3 .content {
     padding: 100px 20px;
 }
 
+footer {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--primary-color);;
+}
+
+footer a:hover {
+    cursor: pointer;
+    color: rgb(10, 25, 56);
+    font-weight: 200;
+}
+
+
 img {
     border-radius: 7px;
 }
@@ -129,6 +143,19 @@ a :hover {
 .padding-left {
     margin-left: 1.5rem;
 }
+.icons {
+    max-width: 20px;
+    margin: 5px;
+    transition: all 150ms ease-in-out;
+    border-radius: 0;
+}
+
+.icons:hover {
+    cursor: pointer;
+    background-color: rgb(214, 224, 240, 0.1);
+
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
