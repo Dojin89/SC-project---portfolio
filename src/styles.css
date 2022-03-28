@@ -68,7 +68,6 @@ p {
     font-size: 18px;
     color: rgba(255, 255, 255, 0.5);
 }
-
 .toProjectButton {
     background: rgb(156, 183, 255, 0.7);
 }
@@ -76,6 +75,31 @@ p {
     background: rgb(156, 183, 255);
 }
 
+.contactPage {
+    text-align: center;
+}
+.contactPage h2 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.3);
+}
+.contactPage h3 {
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: var(--secondary-color);
+    margin-top: -20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a :hover {
+    cursor: pointer;
+    color: rgb(10, 25, 56);
+    font-weight: 200;
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
