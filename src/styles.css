@@ -54,15 +54,13 @@ p {
 .sectionAbout {
     text-align: left;
     padding: 140px 20px;
+    background-color: var(--primary-color);
+    border-radius: 7px;
 }
 
 .sectionAbout h1 {
     font-size: 64px;
     line-height: 80px;
-}
-
-.sectionAbout {
-    font-size: 24;
 }
 
 .sectionAbout h3 {
