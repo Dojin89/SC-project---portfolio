@@ -144,7 +144,7 @@ a :hover {
     margin-left: 1.5rem;
 }
 .icons {
-    max-width: 20px;
+    max-width: 30px;
     margin: 5px;
     transition: all 150ms ease-in-out;
     border-radius: 0;
