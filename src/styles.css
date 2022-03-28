@@ -123,6 +123,12 @@ a :hover {
     background: rgb(156, 183, 255);
 }
 
+.padding-right {
+    margin-right: 1.5rem;
+}
+.padding-left {
+    margin-left: 1.5rem;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
